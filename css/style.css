@@ -21,8 +21,20 @@ header {
   justify-content: space-between;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
 header img {
   height: 50px;
+  margin-right: 15px;
+}
+
+.company-name {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 nav a {
